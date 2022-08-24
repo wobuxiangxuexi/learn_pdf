@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/service"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="125dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="272dp"
+        android:background="@drawable/round_button"
+        android:text="接收文件"
+        android:textAllCaps="false"
+        android:textSize="35dp"></Button>
+
+    <Button
+        android:id="@+id/client"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignStart="@+id/service"
+        android:layout_alignEnd="@+id/service"
+        android:layout_alignBottom="@+id/service"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="510dp"
+        android:background="@drawable/round_button"
+        android:text="发送文件"
+        android:textAllCaps="false"
+        android:textSize="35dp"></Button>
+
+
+</RelativeLayout>
